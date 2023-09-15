@@ -1,7 +1,7 @@
 import os
 
 project_dir = os.getcwd()
-subdirs = ['data/raw_data', 'data/processed_data', 'notebooks']
+subdirs = ['data', 'notebook']
 
 # Create subdirectories
 for subdir in subdirs:
